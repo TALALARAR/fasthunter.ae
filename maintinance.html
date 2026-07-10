@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Hunter | قيد التحديث</title>
+    <style>
+        :root {
+            --accent-color: #FFD700; /* أصفر ذهبي قوي */
+            --dark-bg: #000000;      /* أسود فاحم */
+            --text-gray: #cccccc;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: var(--dark-bg);
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* خلفية بنمط ألياف الكربون Carbon Fiber */
+        .bg-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+                linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0,
+                linear-gradient(27deg, #222 5px, transparent 5px) 0 10px,
+                linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+                linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+                linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+            background-size: 20px 20px;
+            opacity: 0.3;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            border-top: 4px solid var(--accent-color);
+            border-bottom: 4px solid var(--accent-color);
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 3.5rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            margin-bottom: 5px;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        .status-tag {
+            background-color: var(--accent-color);
+            color: black;
+            display: inline-block;
+            padding: 5px 15px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin: 10px 0;
+            color: white;
+        }
+
+        p {
+            color: var(--text-gray);
+            max-width: 500px;
+            margin: 15px auto;
+            line-height: 1.6;
+        }
+
+        /* أنيميشن بسيط للتحميل */
+        .engine-loading {
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            background-color: var(--accent-color);
+            border-radius: 2px;
+            animation: pulse 1.5s infinite ease-in-out;
+        }
+
+        .dot:nth-child(2) { animation-delay: 0.2s; }
+        .dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.3; }
+            50% { transform: scale(1.5); opacity: 1; box-shadow: 0 0 10px var(--accent-color); }
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <div class="content">
+        <div class="logo">FAST<span>HUNTER</span></div>
+        <div class="status-tag">Under Maintenance</div>
+        
+        <h1>نعمل على ضبط المحركات..</h1>
+        <p>
+            موقع **Fast Hunter Auto Main** يخضع الآن لعملية تحديث شاملة لضمان تقديم أفضل تجربة رقمية تليق بسياراتكم.
+        </p>
+
+        <div class="engine-loading">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="footer">
+            SHARJAH • UNITED ARAB EMIRATES
+        </div>
+    </div>
+
+</body>
+</html>
