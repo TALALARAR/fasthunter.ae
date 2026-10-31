@@ -1,208 +1,289 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>فاست هنتر — الشارقة</title>
-  <link rel="icon" href="img/Logo5.png" type="image/png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0f">
+  <title>فاست هنتر | كراج صيانة سيارات في الشارقة — أوروبي، ياباني، كوري، أمريكي</title>
+  <meta name="description" content="فاست هنتر مركز صيانة سيارات في الشارقة: برمجة ECU/TCU ومعايرة ADAS، إصلاح المحركات وناقل الحركة، كهرباء السيارات، والسمكرة والدهان لجميع السيارات الأوروبية واليابانية والكورية والأمريكية. ادفع عبر تابي وتمارا وغيرها.">
+  <meta name="keywords" content="صيانة سيارات, كراج سيارات, ورشة سيارات الشارقة, برمجة ECU, برمجة TCU, معايرة ADAS, تصليح جيربوكس, كهرباء سيارات, سمكرة سيارات, Car Repair Sharjah, Auto Repair UAE, Mercedes, BMW, Audi, Porsche, Toyota, Nissan, Honda, Hyundai, Kia, tabby, tamara">
+  <meta property="og:title" content="فاست هنتر | صيانة سيارات متميزة في الشارقة">
+  <meta property="og:description" content="فاست هنتر مركز صيانة سيارات في الشارقة: برمجة ECU/TCU ومعايرة ADAS، إصلاح المحركات وناقل الحركة، كهرباء السيارات، والسمكرة والدهان لجميع السيارات الأوروبية واليابانية والكورية والأمريكية. ادفع عبر تابي وتمارا وغيرها.">
+  <meta property="og:image" content="https://fasthunter.ae/img/brand-card.jpg">
+  <meta property="og:url" content="https://fasthunter.ae/ar.html">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <link rel="alternate" hreflang="en" href="https://fasthunter.ae/">
+  <link rel="alternate" hreflang="ar" href="https://fasthunter.ae/ar.html">
+  <link rel="icon" href="img/Logo5.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <style>body{font-family:Almarai,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}</style>
+  <link rel="preload" as="image" href="img/hero-bmw.jpg">
+  <script type="application/ld+json">{
+    "@context":"https://schema.org","@type":"AutoRepair","name":"Fast Hunter Auto Main L.L.C","url":"https://fasthunter.ae",
+    "image":"https://fasthunter.ae/img/Logo5.png","telephone":"+971568363321","email":"info@fasthunter.ae",
+    "address":{"@type":"PostalAddress","streetAddress":"Industrial Area 4","addressLocality":"Sharjah","addressCountry":"AE"},
+    "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"],"opens":"08:00","closes":"22:00"}],
+    "paymentAccepted":"Tabby, Tamara, Visa, Mastercard"
+  }</script>
 </head>
-<body>
+<body data-msg='مرحبًا فاست هنتر!|الاسم|الهاتف|البريد|الخدمة|التاريخ|ملاحظات'>
+
+  <div class="progress-bar-top" id="progress"></div>
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#home">
-        <img src="img/Logo5.png" alt="Fast Hunter Logo" />
-        <span class="fw-bold" style="color: white;">Fast Hunter</span>
+      <a class="navbar-brand" href="#home">
+        <img src="img/Logo5.png" alt="Fast Hunter logo">
+        <span class="brand-text">FAST <b>HUNTER</b></span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars" style="color:var(--text-1)"></i></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
       </button>
       <div id="nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="index.html">EN</a></li>
-          <li class="nav-item"><a class="nav-link active" href="#home">الرئيسية</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li>
-          <li class="nav-item"><a class="nav-link" href="#booking">الحجز</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
-          <li class="nav-item ms-lg-3"><a class="btn btn-brand" href="https://wa.me/971568363321" target="_blank" rel="noopener">واتساب</a></li>
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link active" href="#home">الرئيسية</a></li><li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li><li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li><li class="nav-item"><a class="nav-link" href="#process">آلية العمل</a></li><li class="nav-item"><a class="nav-link" href="#booking">الحجز</a></li><li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+          <li class="nav-item ms-lg-2 me-lg-0"><a class="nav-link lang-pill" href="index.html" hreflang="en"><i class="fa-solid fa-globe"></i>English</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-brand px-4" href="#booking">احجز الآن</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <!-- ============ HERO ============ -->
   <header id="home" class="hero">
-    <div class="bg" style="background: linear-gradient(135deg, #0d0d0d, #1a1a1a);"></div>
-    <img src="img/workshop.jpg" class="fallback d-none" alt="خلفية">
+    <div class="hero-bg" role="img" aria-label="BMW at Fast Hunter"></div>
     <div class="container position-relative">
-      <div class="row align-items-center gy-4">
-        <div class="col-lg-7">
-          <div class="card border-0 p-4 p-md-5 text-center text-lg-start">
-            <div class="floating-badges mb-3">
-              <span class="badge-soft"><i class="fa-solid fa-location-dot me-1"></i> الشارقة، الإمارات</span>
-              <span class="badge-soft"><i class="fa-regular fa-clock me-1"></i> 08:00–22:00</span>
-              <span class="badge-soft"><i class="fa-solid fa-microchip me-1"></i> ECU/TCU/ADAS</span>
-            </div>
-            <h1 class="display-6 mb-3">خدمة صيانة سيارات متميزة في الشارقة</h1>
-            <p class="lead mb-4">برمجة (ECU/TCU/ADAS)، خدمات المحرك وناقل الحركة، وخدمات الهيكل والدهان. دقة وشفافية وسرعة.</p>
-            <div class="d-flex gap-3 flex-wrap justify-content-center justify-content-lg-start">
-              <a href="#booking" class="btn btn-brand btn-lg px-4">احجز الآن</a>
-              <a href="#services" class="btn btn-outline-ghost btn-lg px-4">استكشف الخدمات</a>
-            </div>
+      <div class="row">
+        <div class="col-lg-7 col-xl-6">
+          <div class="reveal in"><span class="eyebrow">فاست هنتر · الشارقة، الإمارات</span></div>
+          <h1 class="reveal in d1">صيانة سيارات متميزة، <span class="accent">بسرعة وإتقان.</span></h1>
+          <p class="lead reveal in d2">برمجة ECU / TCU / ADAS، متخصصون في المحركات وناقل الحركة، كهرباء السيارات، وسمكرة ودهان احترافي — لجميع الماركات الأوروبية واليابانية والكورية والأمريكية.</p>
+          <div class="hero-chips reveal in d2"><span class="chip"><i class="fa-solid fa-location-dot"></i>الشارقة، الإمارات</span><span class="chip"><i class="fa-regular fa-clock"></i><bdi dir="ltr">08:00–22:00</bdi></span><span class="chip"><i class="fa-solid fa-microchip"></i>ECU/TCU/ADAS</span></div>
+          <div class="d-flex gap-3 flex-wrap reveal in d3">
+            <a href="#booking" class="btn btn-brand btn-lg px-4">احجز خدمتك</a>
+            <a href="#services" class="btn btn-outline-ghost btn-lg px-4">استكشف الخدمات</a>
           </div>
-        </div>
-        <div class="col-lg-5">
-          <div class="fh-card p-3 rounded-2xl">
-            <img data-src="img/workshop.jpg" class="w-100 rounded-2xl lazy" alt="الورشة" style="object-fit:cover; aspect-ratio: 4/3;">
-          </div>
+          <div class="hero-stats reveal in d4"><div><div class="num"><span dir="ltr" style="display:inline-block">25<span>+</span></span></div><div class="lbl">ماركة سيارات نخدمها</div></div><div><div class="num"><span dir="ltr" style="display:inline-block">4</span></div><div class="lbl">تخصصات رئيسية</div></div><div><div class="num"><span dir="ltr" style="display:inline-block">14</span></div><div class="lbl">ساعة عمل يوميًا (السبت–الخميس)</div></div><div><div class="num"><span dir="ltr" style="display:inline-block">100<span>%</span></span></div><div class="lbl">أسعار شفافة</div></div></div>
         </div>
       </div>
     </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
   </header>
 
+  <!-- ============ BRANDS ============ -->
+  <div class="brands" aria-label="الماركات التي نخدمها"><div class="marquee"><span>Mercedes-Benz</span><span>BMW</span><span>Audi</span><span>Porsche</span><span>Volkswagen</span><span>Land Rover</span><span>Jaguar</span><span>Renault</span><span>Peugeot</span><span>Skoda</span><span>Fiat</span><span>Seat</span><span>Toyota</span><span>Nissan</span><span>Honda</span><span>Mitsubishi</span><span>Mazda</span><span>Subaru</span><span>Suzuki</span><span>Lexus</span><span>Infiniti</span><span>Hyundai</span><span>Kia</span><span>Genesis</span><span>Ford</span><span>Chevrolet</span><span>Jeep</span><span>Mercedes-Benz</span><span>BMW</span><span>Audi</span><span>Porsche</span><span>Volkswagen</span><span>Land Rover</span><span>Jaguar</span><span>Renault</span><span>Peugeot</span><span>Skoda</span><span>Fiat</span><span>Seat</span><span>Toyota</span><span>Nissan</span><span>Honda</span><span>Mitsubishi</span><span>Mazda</span><span>Subaru</span><span>Suzuki</span><span>Lexus</span><span>Infiniti</span><span>Hyundai</span><span>Kia</span><span>Genesis</span><span>Ford</span><span>Chevrolet</span><span>Jeep</span></div></div>
+
+  <!-- ============ ABOUT ============ -->
   <section id="about">
     <div class="container">
-      <div class="row align-items-center gy-4">
-        <div class="col-lg-6">
-          <div class="fh-card overflow-hidden">
-            <img data-src="img/about.jpg" class="w-100 lazy" alt="عن فاست هنتر" style="object-fit:cover; aspect-ratio: 16/10;">
+      <div class="row align-items-center g-4 g-lg-5">
+        <div class="col-lg-5 reveal">
+          <div class="about-visual">
+            <div class="main"><img src="img/workshop-opt.jpg" alt="Fast Hunter mechanic at work" loading="lazy"></div>
+            <div class="float-card"><img src="img/brand-card.jpg" alt="Fast Hunter" loading="lazy"></div>
+            <div class="badge-exp"><span style="font-size:1.7rem">4</span><small>تخصصات<br>تحت سقف واحد</small></div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="section-title mb-3"><span class="bar"></span><span>// من نحن //</span></div>
-          <h2 class="fw-extrabold mb-3">وجهتك الموثوقة لصيانة شاملة</h2>
-          <p class="muted mb-4">فريق معتمد يستخدم أدوات تشخيص حديثة وإجراءات وفق معايير المصنع. نركز على تشخيص دقيق وتسعير عادل وإصلاحات تدوم.</p>
+        <div class="col-lg-7 reveal d2">
+          <div class="section-head mb-4">
+            <span class="eyebrow">من نحن</span>
+            <h2>وجهتك الموثوقة للعناية بسيارتك</h2>
+            <p>فريق معتمد يستخدم أدوات تشخيص حديثة وإجراءات وفق معايير المصنع. نركز على تشخيص دقيق وتسعير عادل وإصلاحات تدوم — لتنطلق بسيارتك بثقة.</p>
+          </div>
+          <div class="row g-3"><div class="col-sm-6"><div class="fh-card feature"><span class="icon"><i class="fa-solid fa-shield-halved"></i></span><div><h6>فريق محترف وخبير</h6><p>فنيون مدرَّبون على أنظمة السيارات الأوروبية والأمريكية واليابانية والكهربائية.</p></div></div></div><div class="col-sm-6"><div class="fh-card feature"><span class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></span><div><h6>مركز خدمة عالي الجودة</h6><p>إجراءات وفق المصنع، أدوات حديثة، ونتائج موثقة.</p></div></div></div><div class="col-sm-6"><div class="fh-card feature"><span class="icon"><i class="fa-solid fa-magnifying-glass-chart"></i></span><div><h6>تشخيص دقيق</h6><p>فحص بالكمبيوتر يصل إلى أصل العطل لا إلى عرضه فقط.</p></div></div></div><div class="col-sm-6"><div class="fh-card feature"><span class="icon"><i class="fa-solid fa-hand-holding-dollar"></i></span><div><h6>تسعير عادل وواضح</h6><p>نشرح كل سعر وقطعة ونحصل على موافقتك قبل أي عمل.</p></div></div></div></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="services">
+  <!-- ============ SERVICES ============ -->
+  <section id="services" style="background:var(--bg-0)">
     <div class="container">
-      <div class="text-center mb-4">
-        <div class="section-title justify-content-center mb-2"><span class="bar"></span><span>// خدماتنا //</span></div>
-        <h2 class="fw-bold">تعرف على خدماتنا</h2>
-        <p class="muted">المحرك • ناقل الحركة • البرمجة • سمكرة ودهان</p>
+      <div class="section-head center reveal">
+        <span class="eyebrow">خدماتنا</span>
+        <h2>كل ما تحتاجه سيارتك في كراج واحد</h2>
+        <p>المحرك • ناقل الحركة • البرمجة • السمكرة والدهان — على يد متخصصين.</p>
       </div>
-      <div class="row g-4 service-3d">
-        <div class="col-md-6 col-lg-3">
-          <div class="fh-card p-4 text-center">
-            <div class="icon mx-auto mb-3"><i class="fa-solid fa-microchip"></i></div>
-            <h5 class="mb-2">البرمجة</h5>
-            <p class="muted">برمجة ECU/TCU ومعايرة ADAS بعد الإصلاح أو الاستبدال.</p>
-          </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-xl-3 reveal d1">
+          <article class="fh-card svc">
+            <div class="thumb"><img src="img/service1.jpg" alt="البرمجة" loading="lazy"></div>
+            <div class="body">
+              <span class="icon"><i class="fa-solid fa-microchip"></i></span>
+              <h5>البرمجة</h5><p>برمجة ECU/TCU ومعايرة ADAS بعد الإصلاح أو الاستبدال.</p>
+              <a class="more" href="#booking" data-service="programming">احجز هذه الخدمة <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="fh-card p-4 text-center">
-            <div class="icon mx-auto mb-3"><i class="fa-solid fa-gauge-high"></i></div>
-            <h5 class="mb-2">خدمات المحرك</h5>
-            <p class="muted">تشخيص شامل، إصلاح، وتحسين الأداء.</p>
-          </div>
+        <div class="col-md-6 col-xl-3 reveal d2">
+          <article class="fh-card svc">
+            <div class="thumb"><img src="img/workshop-opt.jpg" alt="خدمات المحرك" loading="lazy"></div>
+            <div class="body">
+              <span class="icon"><i class="fa-solid fa-gauge-high"></i></span>
+              <h5>خدمات المحرك</h5><p>تشخيص شامل، إصلاح، وتحسين الأداء والاعتمادية.</p>
+              <a class="more" href="#booking" data-service="engine">احجز هذه الخدمة <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="fh-card p-4 text-center">
-            <div class="icon mx-auto mb-3"><i class="fa-solid fa-gears"></i></div>
-            <h5 class="mb-2">ناقل الحركة</h5>
-            <p class="muted">إصلاحات متقدمة واستبدال وضبط دقيق.</p>
-          </div>
+        <div class="col-md-6 col-xl-3 reveal d3">
+          <article class="fh-card svc">
+            <div class="thumb"><img src="img/service3.jpg" alt="ناقل الحركة" loading="lazy"></div>
+            <div class="body">
+              <span class="icon"><i class="fa-solid fa-gears"></i></span>
+              <h5>ناقل الحركة</h5><p>إصلاحات متقدمة واستبدال وضبط دقيق.</p>
+              <a class="more" href="#booking" data-service="transmission">احجز هذه الخدمة <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="fh-card p-4 text-center">
-            <div class="icon mx-auto mb-3"><i class="fa-solid fa-spray-can-sparkles"></i></div>
-            <h5 class="mb-2">الهيكل والدهان</h5>
-            <p class="muted">سمكرة، معالجة الخدوش، ودهان احترافي.</p>
-          </div>
+        <div class="col-md-6 col-xl-3 reveal d4">
+          <article class="fh-card svc">
+            <div class="thumb"><img src="img/service4.jpg" alt="الهيكل والدهان" loading="lazy"></div>
+            <div class="body">
+              <span class="icon"><i class="fa-solid fa-spray-can-sparkles"></i></span>
+              <h5>الهيكل والدهان</h5><p>سمكرة، معالجة الخدوش، ودهان وتشطيب احترافي.</p>
+              <a class="more" href="#booking" data-service="body">احجز هذه الخدمة <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
         </div>
+      </div>
+      <div class="also reveal"><span class="chip"><i class="fa-solid fa-bolt"></i>كهرباء السيارات</span><span class="chip"><i class="fa-solid fa-stethoscope"></i>فحص كمبيوتر</span><span class="chip"><i class="fa-solid fa-car-burst"></i>إصلاح الحوادث</span><span class="chip"><i class="fa-solid fa-oil-can"></i>صيانة دورية</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section id="process" class="process">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">آلية العمل</span>
+        <h2>من الحجز إلى استلام المفتاح</h2>
+        <p>خطوات بسيطة وواضحة بلا مفاجآت.</p>
+      </div>
+      <div class="row g-4 steps-row"><div class="col-sm-6 col-lg-3 reveal d1"><div class="fh-card step"><div class="n">01</div><h6>احجز</h6><p>أرسل طلبك عبر الموقع أو واتساب وسنؤكد موعدك سريعًا.</p></div></div><div class="col-sm-6 col-lg-3 reveal d2"><div class="fh-card step"><div class="n">02</div><h6>نشخّص</h6><p>نفحص سيارتك ونجري تشخيصًا كاملًا بالكمبيوتر.</p></div></div><div class="col-sm-6 col-lg-3 reveal d3"><div class="fh-card step"><div class="n">03</div><h6>توافق</h6><p>تصلك تسعيرة واضحة للعمل والقطع — ولا نبدأ إلا بموافقتك.</p></div></div><div class="col-sm-6 col-lg-3 reveal d4"><div class="fh-card step"><div class="n">04</div><h6>انطلق</h6><p>ننجز العمل وفق معايير المصنع ونسلّمك سيارتك جاهزة.</p></div></div></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-band" style="padding-block:0 96px">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div><h3>سيارتك تحتاج فحصًا؟ نحن جاهزون.</h3><p>راسلنا على واتساب — رد سريع ونصيحة صادقة.</p></div>
+        <a class="btn btn-wa btn-lg px-4" href="https://wa.me/971568363321" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> &nbsp;تواصل عبر واتساب</a>
       </div>
     </div>
   </section>
 
+  <!-- ============ BOOKING ============ -->
   <section id="booking" class="booking">
     <div class="container">
-      <div class="row align-items-stretch gy-4">
-        <div class="col-lg-6">
-          <div class="section-title mb-2"><span class="bar"></span><span>// الحجز //</span></div>
-          <h2 class="fw-bold mb-3">احجز خدمتك</h2>
-          <p class="muted mb-4">أخبرنا بطلبك وسنؤكد موعدك سريعًا. السبت–الخميس 08:00–22:00.</p>
+      <div class="row align-items-center g-4 g-lg-5">
+        <div class="col-lg-5 reveal">
+          <div class="section-head mb-0">
+            <span class="eyebrow">الحجز</span>
+            <h2>احجز خدمتك</h2>
+            <p>أخبرنا بطلبك وسنؤكد موعدك سريعًا. من السبت إلى الخميس، من 8 صباحًا حتى 10 مساءً.</p>
+          </div>
+          <ul class="perks"><li><i class="fa-solid fa-circle-check"></i><div><b>رد سريع عبر واتساب</b>نرد بسرعة ونؤكد لك الموعد.</div></li><li><i class="fa-solid fa-circle-check"></i><div><b>فحص وإجراءات وفق المصنع</b>نعمل بالطريقة التي حددتها الشركة المصنعة.</div></li><li><i class="fa-solid fa-circle-check"></i><div><b>أسعار شفافة</b>بلا تكاليف خفية.</div></li></ul>
         </div>
-        <div class="col-lg-6">
-          <div class="fh-card p-4 p-md-5 h-100">
+        <div class="col-lg-7 reveal d2">
+          <div class="fh-card p-4 p-md-5">
             <form id="booking-form" novalidate>
               <div class="row g-3">
-                <div class="col-12 col-sm-6">
-                  <input type="text" class="form-control" placeholder="الاسم" id="name-field" required>
-                </div>
-                <div class="col-12 col-sm-6">
-                  <input type="email" class="form-control" placeholder="البريد الإلكتروني" id="email-field" required>
-                </div>
+                <div class="col-12 col-sm-6"><input type="text" class="form-control" placeholder="الاسم" id="name-field" autocomplete="name" required></div>
+                <div class="col-12 col-sm-6"><input type="tel" class="form-control" placeholder="رقم الهاتف / واتساب" id="phone-field" autocomplete="tel" inputmode="tel" required></div>
+                <div class="col-12 col-sm-6"><input type="email" class="form-control" placeholder="البريد الإلكتروني (اختياري)" id="email-field" autocomplete="email"></div>
                 <div class="col-12 col-sm-6">
                   <select class="form-select" id="serviceType-field" required>
-                    <option value="" selected disabled>اختر الخدمة</option>
-                    <option value="engine">المحرك</option>
-                    <option value="transmission">ناقل الحركة</option>
-                    <option value="programming">البرمجة (ECU/TCU/ADAS)</option>
-                    <option value="body">الهيكل والدهان</option>
+                    <option value="" selected disabled>اختر الخدمة</option><option value="engine">المحرك</option><option value="transmission">ناقل الحركة</option><option value="programming">البرمجة (ECU/TCU/ADAS)</option><option value="body">الهيكل والدهان</option><option value="electrical">كهرباء السيارات</option><option value="other">أخرى / غير متأكد</option>
                   </select>
                 </div>
-                <div class="col-12 col-sm-6">
-                  <input type="date" class="form-control" id="date-field" required>
-                </div>
-                <div class="col-12">
-                  <textarea class="form-control" rows="4" placeholder="ملاحظات خاصة" id="specialRequest-field"></textarea>
-                </div>
-                <div class="col-12 d-grid">
-                  <button class="btn btn-brand py-3" type="submit" id="book-btn">احجز الآن</button>
-                </div>
+                <div class="col-12"><input type="date" class="form-control" id="date-field" aria-label="التاريخ المفضل" required></div>
+                <div class="col-12"><textarea class="form-control" rows="4" placeholder="أخبرنا عن سيارتك والمشكلة" id="specialRequest-field"></textarea></div>
+                <div class="col-12 d-grid"><button class="btn btn-brand btn-lg py-3" type="submit" id="book-btn"><i class="fab fa-whatsapp"></i> &nbsp;أرسل الحجز عبر واتساب</button></div>
               </div>
             </form>
-            <div id="booking-success" class="alert alert-success mt-3 d-none" role="alert">شكرًا لك! استلمنا طلبك وسنتواصل معك قريبًا.</div>
+            <div id="booking-success" class="alert alert-success mt-3 mb-0 d-none" role="status">شكرًا لك! فُتح واتساب بطلبك وسنتواصل معك قريبًا.</div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAYMENTS ============ -->
+  <section class="pay-strip">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6 reveal">
+          <span class="eyebrow">دفع مرن</span>
+          <h4 class="mt-2 mb-2">ادفع بالطريقة التي تناسبك — قسّطها عبر تابي وتمارا</h4>
+          <p>أعد سيارتك إلى الطريق الآن ووزّع التكلفة. اختر من أكثر من 10 طرق للدفع.</p>
+        </div>
+        <div class="col-lg-6 reveal d2 d-flex justify-content-lg-end"><a class="btn btn-outline-ghost btn-lg px-4" href="https://wa.me/971568363321?text=" target="_blank" rel="noopener" data-pay-wa><i class="fab fa-whatsapp"></i> &nbsp;اسأل عن التقسيط</a></div>
       </div>
     </div>
   </section>
 
   <footer id="contact">
-    <div class="container py-5">
-      <div class="row g-4">
-        <div class="col-md-5">
-          <h5 class="mb-3">العنوان</h5>
-          <p class="muted mb-2"><i class="fa-solid fa-location-dot me-2"></i><a class="text-decoration-none" href="https://maps.app.goo.gl/52vbiE2BuMg5kpL6A" target="_blank" rel="noopener">الشارقة — الصناعية 4</a></p>
-          <p class="muted mb-2"><i class="fa-solid fa-phone me-2"></i><a class="text-decoration-none" href="tel:+971568363321">+971 56 836 3321</a></p>
-          <p class="muted mb-3"><i class="fa-solid fa-envelope me-2"></i><a class="text-decoration-none" href="mailto:info@fasthunter.ae">info@fasthunter.ae</a></p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="mb-3">ساعات العمل</h5>
-          <p class="muted">السبت – الخميس<br>08:00 ص – 10:00 م</p>
-          <h5 class="mt-4 mb-3">Quick Links</h5>
-          <ul class="list-unstyled">
-            <li class="mb-2"><a class="text-decoration-none" href="#services">Services</a></li>
-            <li class="mb-2"><a class="text-decoration-none" href="#about">About</a></li>
-            <li class="mb-2"><a class="text-decoration-none" href="#booking">Booking</a></li>
-            <li class="mb-2"><a class="text-decoration-none" href="https://fasthunter.ae/terms.html">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <h5 class="mb-3">الموقع على الخريطة</h5>
-          <div class="rounded-2xl overflow-hidden border" style="border-color:var(--line)">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.249687374347!2d55.40869557484198!3d25.337502926004497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f59315cd81097%3A0xa2ebb1a6ec98051d!2z2KfZhNi12YrYp9ivINin2YTYs9ix2YrYuSAuLSDYtdmK2KfZhtipINiz2YrYp9ix2KfYqiAsIEZhc3QgSHVudGVyIC4gQXV0byBSZXBhaXI!5e1!3m2!1sen!2sae!4v1755356478424!5m2!1sen!2sae" width="100%" height="220" style="border:0" loading="lazy"></iframe>
+    <div class="container pt-5 pb-4">
+      <div class="row g-4 g-lg-5">
+        <div class="col-lg-4">
+          <div class="brandline"><img src="img/Logo5.png" alt="Fast Hunter logo"><b>FAST <i>HUNTER</i></b></div>
+          <p class="mb-3" style="max-width:22rem">عناية متميزة بالسيارات في الشارقة — برمجة، محرك، ناقل حركة، كهرباء وسمكرة لجميع الماركات.</p>
+          <div class="social d-flex gap-2">
+            <a href="https://www.facebook.com/people/Fast-Hunter-service-center/61570475133262/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/fast.hunter.center/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/971568363321" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
+        <div class="col-6 col-lg-2">
+          <h5>روابط سريعة</h5>
+          <ul class="list-unstyled f-links m-0"><li class="mb-2"><a href="#services">الخدمات</a></li><li class="mb-2"><a href="#about">من نحن</a></li><li class="mb-2"><a href="#booking">الحجز</a></li><li class="mb-2"><a href="terms.html">الشروط والأحكام</a></li></ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h5>ساعات العمل</h5>
+          <p>من السبت إلى الخميس<br>من 8:00 صباحًا حتى 10:00 مساءً</p>
+          <h5 class="mt-4">تواصل معنا</h5>
+          <div class="contact-line"><i class="fa-solid fa-location-dot"></i><a href="https://maps.app.goo.gl/52vbiE2BuMg5kpL6A" target="_blank" rel="noopener">الإمارات — الشارقة — الصناعية 4</a></div>
+          <div class="contact-line"><i class="fa-solid fa-phone"></i><a href="tel:+971568363321" dir="ltr">+971 56 836 3321</a></div>
+          <div class="contact-line"><i class="fa-solid fa-envelope"></i><a href="mailto:info@fasthunter.ae">info@fasthunter.ae</a></div>
+        </div>
+        <div class="col-lg-3">
+          <h5>موقعنا</h5>
+          <div class="map-wrap"><iframe title="Fast Hunter location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.249687374347!2d55.40869557484198!3d25.337502926004497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f59315cd81097%3A0xa2ebb1a6ec98051d!2z2KfZhNi12YrYp9ivINin2YTYs9ix2YrYuSAuLSDYtdmK2KfZhtipINiz2YrYp9ix2KfYqiAsIEZhc3QgSHVudGVyIC4gQXV0byBSZXBhaXI!5e1!3m2!1sen!2sae!4v1755356478424!5m2!1sen!2sae" width="100%" height="190" style="border:0;display:block" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
       </div>
     </div>
-    <div class="border-top" style="border-color:var(--line) !important">
-      <div class="container py-3 small d-flex flex-wrap justify-content-between gap-2">
-        <span>© <span id="year"></span> <strong>FAST HUNTER AUTO MAIN L.L.C</strong></span>
-        <span>Designed by Talal Arar</span>
+
+    <!-- Payment methods -->
+    <div class="footer-pay">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+        <div class="text-center text-md-start">
+          <div class="label">وسائط الدفع</div>
+          <div class="sub">ادفع بالتقسيط أو بالبطاقة</div>
+        </div>
+        <div class="pay-badges" aria-label="وسائط الدفع">
+            <span class="pay pay-tabby" title="Tabby">tabby</span>
+            <span class="pay pay-tamara" title="Tamara">tamara</span>
+            <span class="pay pay-x10" title="والمزيد">×10+</span>
+            <span class="pay pay-card pay-visa" title="Visa"><i class="fa-brands fa-cc-visa"></i></span>
+            <span class="pay pay-card pay-mc" title="Mastercard"><i class="fa-brands fa-cc-mastercard"></i></span>
+          </div>
       </div>
     </div>
+
+    <div class="copyright"><div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+      <span>© <span id="year"></span> <strong>FAST HUNTER AUTO MAIN L.L.C</strong>. جميع الحقوق محفوظة.</span>
+      <span>تصميم طلال عرار</span>
+    </div></div>
   </footer>
+
+  <div class="float-stack">
+    <a class="float-btn float-top" href="#home" id="to-top" aria-label="للأعلى"><i class="fa-solid fa-arrow-up"></i></a>
+    <a class="float-btn float-wa" href="https://wa.me/971568363321" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
